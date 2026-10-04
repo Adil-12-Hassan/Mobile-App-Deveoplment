@@ -1,0 +1,30 @@
+# Android Studio and Gradle generated/local files
+*.iml
+**/.gradle/
+**/build/
+**/local.properties
+**/.kotlin/
+**/.idea/caches/
+**/.idea/libraries/
+**/.idea/modules.xml
+**/.idea/workspace.xml
+**/.idea/navEditor.xml
+**/.idea/assetWizardSettings.xml
+**/.idea/tasks.xml
+**/.idea/usage.statistics.xml
+**/.idea/dictionaries/
+**/.idea/shelf/
+**/.idea/deploymentTargetSelector.xml
+**/.idea/deviceManager.xml
+**/.idea/kotlinc.xml
+
+# Native build outputs and local captures
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+*.apk
+*.aab
+
+# OS-generated files
+.DS_Store
+Thumbs.db

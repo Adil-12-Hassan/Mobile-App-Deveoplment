@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/action_sort"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/sort_priority"
+                android:title="@string/sort_priority" />
+            <item
+                android:id="@+id/sort_due_date"
+                android:title="@string/sort_due_date" />
+            <item
+                android:id="@+id/sort_title"
+                android:title="@string/sort_title" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="@string/action_exit"
+        app:showAsAction="never" />
+</menu>
